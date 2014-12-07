@@ -1,4 +1,10 @@
 make the change
 shabi 
+<<<<<<< HEAD
 
 dfjkadfa
+=======
+sdkfjkad 
+>>>>>>> feature1
+
+sdjfkadsfadfdsdfasdfasdfa
