@@ -1,0 +1,10 @@
+package DAO;
+
+import VO.User;
+
+public interface IUserDAO {
+	public boolean findLogin(User user)throws Exception{
+		
+	}
+	
+}

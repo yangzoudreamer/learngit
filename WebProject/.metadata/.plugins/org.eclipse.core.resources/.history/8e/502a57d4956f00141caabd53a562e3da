@@ -1,0 +1,7 @@
+package DAO;
+
+import VO.User;
+
+public interface IUserDAO {
+	
+}

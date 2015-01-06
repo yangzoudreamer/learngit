@@ -1,0 +1,23 @@
+package DAO;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DatabaseConnection {
+	private static final String DBDRIVER = "org.gjt.mm.mysql.Driver";
+	private static final String DBURL = "jdbc:mysql://localhost:3306/mydatabase";
+	private static final String DBUSER = "root";
+	private static final String DBPASSWORD = "root";
+	
+	private Connection conn = null;
+	
+	public DatabaseConnection() throws Exception{
+		try{
+			Class.forName(DBDRIVER);
+			this.conn = 
+		}
+		catch(Exception e){
+			throw e;
+		}
+	}
+}
